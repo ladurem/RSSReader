@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RSSReader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about">A propos</string>
+    <string name="add">Add</string>
+    <string name="menu_search">Recherche</string>
+    <string name="menu_refresh">Rafraichir</string>
+    <string name="menu_help">Aide</string>
+    <string name="menu_about">A propos</string>
+    <string name="menu_settings">Config</string>
+    <string name="title_activity_stream">Flux</string>
+    <string name="valid">Connexion</string>
+    <string name="title_activity_display_article">Lire</string>
+    <string name="menu_logout">Deconnexion</string>
+    <string name="no_data">No Data</string>
+    <string name="addFlux">Ajouter un flux</string>
+    <string name="title_activity_add_flux">Ajouter un flux</string>
+
+</resources>

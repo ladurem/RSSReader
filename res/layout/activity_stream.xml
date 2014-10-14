@@ -1,0 +1,58 @@
+<RelativeLayout 
+      xmlns:android="http://schemas.android.com/apk/res/android" 
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent"> 
+   
+    <LinearLayout
+        android:id="@+id/loaded"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0.69" >
+        </ListView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:id="@android:id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/no_data" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/noData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" >
+
+     <Button
+         android:id="@+id/addFlux"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginTop="50dp"
+         android:paddingLeft="60dp"
+         android:paddingRight="32dp"
+         android:text="@string/addFlux" />
+
+    </FrameLayout>
+</RelativeLayout>

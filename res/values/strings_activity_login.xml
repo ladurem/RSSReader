@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="title_activity_login">Inscription</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Pseudo</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_register">Inscription</string>
+    <string name="action_sign_in_short">Inscription</string>
+    <string name="login_progress_signing_in">Enregistrement&#8230;</string>
+    <string name="error_invalid_email">Le champs est manquant</string>
+    <string name="error_invalid_password">Le mot de pass est trop court.</string>
+    <string name="error_incorrect_password">Le password est incorrect.</string>
+    <string name="error_field_required">Le champ est requis.</string>
+
+</resources>
